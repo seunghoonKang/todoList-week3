@@ -1,0 +1,7 @@
+.layout {
+  box-sizing: content-box;
+  margin: auto;
+  max-width: 1200px;
+  min-width: 800px;
+  background-color: blue;
+}
