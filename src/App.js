@@ -1,12 +1,12 @@
 // src/App.js
 
 import React from "react";
-import Layout from "./components/layout/Layout";
+import TodoList from "./pages/TodoList";
 
 function App() {
   return (
     <div>
-      <Layout>1</Layout>
+      <TodoList />
     </div>
   );
 }
