@@ -1,0 +1,44 @@
+.formLayout {
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 30px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.formContent {
+  height: 40px;
+  width: 240px;
+
+  border: none;
+  border-radius: 12px;
+  padding: 0 12px;
+}
+
+.addButton {
+  width: 140px;
+  height: 40px;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: #f8f8f8;
+  color: #60b1ba;
+}
+
+.addButton:hover {
+  background-color: #60b1ba;
+  color: #f8f8f8;
+  transition: all 300ms linear;
+}
