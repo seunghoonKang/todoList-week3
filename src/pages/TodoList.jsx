@@ -41,11 +41,10 @@ export default function TodoList() {
   };
 
   const onIsDone = (id) => {
-    setTodos(
-      todos.map((todo) =>
-        todo.id === id ? { ...todo, isDone: !todo.isDone } : todo
-      )
-    );
+    let findIndex = todos.findIndex((todo) => todo.id === id);
+    let copiedItems = [...todos];
+    copiedItems[findIndex].isDone = !copiedItems[findIndex].isDone;
+    setTodos(copiedItems);
   };
 
   return (
